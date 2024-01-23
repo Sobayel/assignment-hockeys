@@ -19,6 +19,7 @@
         extend: {
           colors: {
             'primary': '#FF4240',
+            'btn-primary': '#13131808',
           }
         }
       }
@@ -65,7 +66,8 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="">
+                <div class="gap-3">
+                    <img src="./Images/ss.png" alt="">
                     <a class="btn btn-error bg-color-primary text-white">Get Ticket</a>
                 </div>
             </div>
@@ -81,7 +83,7 @@
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
-              <img src="/Images/4.png" class="w-full" />
+              <img src="./Images/4.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
@@ -139,7 +141,7 @@
             <!-- 1st card -->
             <div class="card col-span-2 lg:col-span-1 bg:base-60 shadow-xl image-full">
               <div>
-                <img class="w-full" src="/Images/2.png" alt="" />
+                <img class="w-full" src="./Images/2.png" alt="" />
               </div>
               <div class="card-body text-center">
                 <h2 class="card-title mt-[20%]">Junior Program</h2>
@@ -151,7 +153,7 @@
             </div>
             <!-- second card -->
             <div class="card col-span-2 lg:col-span-1 bg-base-30 shadow-xl image-full">
-              <div><img class="w-full" src="/Images/3.png" alt="" /></div>
+              <div><img class="w-full" src="./Images/3.png" alt="" /></div>
               <div class="card-body">
                 <h2 class="card-title mt-[20%]">Junior Program</h2>
                 <p class="font-medium text-[ #13131880]">Nurturing junior talent through educational programs, fostering growth, and skill development opportunities.</p>
@@ -162,7 +164,7 @@
             </div>
             <!-- 3rd card -->
             <div class="col-span-2 card bg-opacity-0 shadow-xl image-full">
-              <div><img class="w-full" src="/Images/4.png" alt="Images" /></div>
+              <div><img class="w-full" src="./Images/4.png" alt="Images" /></div>
               <div class="card-body">
                 <h2 class="card-title mt-[20%]">Junior Program</h2>
                 <p class="font-medium text-[ #13131880]">Nurturing junior talent through educational programs, fostering growth, and skill development opportunities.</p>
@@ -434,6 +436,85 @@
       <section class="my-24">
         <h2 class="text-center text-3xl lg:text-5xl font-extrabold mb-5">Get In Touch</h2>
         <p class="text-center lg:mx-auto mb-12">Revolutionary designs, cutting-edge technology, unmatched performance introducing our latest lineup of exceptional products.</p>
+
+        <div class=" my-24 m-10 grid grid-cols-1 lg:grid-cols-3 justify-around">
+          <div class="grid col-span-3 lg:col-span-1 gap-5 w-80 ">
+            <div class=" flex-col p-8 pl-5  rounded-xl space-y-2 drop-shadow-lg bg-[#BCED6D1A]">
+              <img src="./Images/Group 1.png" alt="g">
+              <h3 class="text-sm">Phone Number :</h3>
+              <p class="font-semibold">01581-093144</p>
+            </div>
+            <div class=" flex-col p-8 pl-5 rounded-xl space-y-2 drop-shadow-lg bg-[#FDDD5F1A]">
+              <img src="./Images/Group 2.png" alt="g">
+              <h3 class="text-sm">Email :</h3>
+              <p class="font-semibold">mdsobayelhossain@gmail.com</p>
+            </div>
+            <div class=" flex-col p-8 pl-5 space-y-2 rounded-xl drop-shadow-lg bg-[#629CF31A]">
+              <img src="./Images/Group 3.png" alt="g">
+              <h3 class="text-sm">Location :</h3>
+              <p class="font-semibold"> :Mirpur-12,Dhaka</p>
+            </div>
+          </div>
+
+          <!-- document -->
+          <div class="grid col-span-3 lg:col-span-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+              <!-- name -->
+            <div class="card">
+              <div class="form-control">
+                <id class="label">
+                  <span class="label-text">Your Name</span>
+                </id>
+                <input type="name" placeholder="Enter your full name" class="input input-bordered bg-btn-primary" required />
+              </div>
+        </div>
+        <!-- email -->
+          <div class="card">
+              <div class="form-control">
+                <id class="label">
+                  <span class="label-text">Your Email</span>
+                </id>
+                <input type="email" placeholder="Enter your email" class="input input-bordered bg-btn-primary" required />
+              </div>
+        </div>
+            </div>
+        <div class="grid grid-cols-2 gap-5">
+            <!-- subject -->
+            <div class="card">
+              <div class="form-control">
+                <id class="label">
+                  <span class="label-text">Your Subject</span>
+                </id>
+                <input type="subject" placeholder="Enter your subject" class="input input-bordered bg-[#13131808]" required />
+              </div>
+        </div>
+        <!-- Phone number -->
+          <div class="card">
+            <div class="form-control">
+              <id class="label">
+                <span class="label-text">Phone Number</span>
+              </id>
+              <input type="Phone Number" placeholder="Enter your phone number" class="input input-bordered bg-btn-primary" required />
+              </div>
+          </div>
+        </div>
+            <!-- message -->
+            <div class="card">
+              <div class="form-control">
+                <id class="label">
+                  <span class="label-text">Message</span>
+                </id>
+                <textarea type="message" placeholder="Write your message" class="input h-48 input-bordered bg-btn-primary" required></textarea>
+                </div>
+            </div>
+            <button class="btn text-white bg-primary">Register Now!</button>
+            </div>
+        </div>
+
+        <div class="text-center bg-[#13131808] py-8 rounded-xl">
+          <h3 class="text-2xl mb-2">Social Media</h3>
+          <img class="mx-auto" src="./Images/Social.png" alt="">
+        </div>
       </section>
     </main>
 
